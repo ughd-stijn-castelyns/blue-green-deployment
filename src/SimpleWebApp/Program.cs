@@ -7,7 +7,7 @@ public class Program
     var builder = WebApplication.CreateBuilder(args);
     var app = builder.Build();
 
-    app.MapGet("/", () => "Version 1.0");
+    app.MapGet("/", () => "Version 1.1");
 
     app.Run();
   }
